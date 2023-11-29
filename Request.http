@@ -4,7 +4,7 @@ Accept: application/json
 Content-Type: application/json
 
 {
-  "author": "Annisa Armanyda",
+  "author": "Annisa",
   "title": "Java modern 3",
   "publisher": "Buku Indah"
 }
