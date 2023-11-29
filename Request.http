@@ -1,0 +1,22 @@
+### Create Book
+POST http://localhost:8080/api/create_books
+Accept: application/json
+Content-Type: application/json
+
+{
+  "author": "Annisa Armanyda",
+  "title": "Java modern 3",
+  "publisher": "Buku Indah"
+}
+
+### Delete Book
+DELETE http://localhost:8080/api/delete_book/5
+Accept: application/json
+
+### Get Books
+GET http://localhost:8080/api/books
+Accept: application/json
+
+### Get Book By ID
+GET http://localhost:8080/api/get_book/1
+Accept: application/json
